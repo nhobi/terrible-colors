@@ -80,6 +80,11 @@ const Logo = styled.div`
 	color: red;
 	width: 100%;
 	text-align: center;
+	font-size: .4em;	
+
+	@media screen and (min-width: 800px) {
+		font-size: 1em;
+	}
 `;
 
 const LogoTitle = styled.span`

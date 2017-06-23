@@ -66,6 +66,7 @@ export default props => {
 				data-clipboard-text={props.color.hex}
 				onSuccess={props.onClick}
 				style={{
+					appearance: "none",
 					position: "absolute",
 					top: 0,
 					left: 0,

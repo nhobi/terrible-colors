@@ -11,4 +11,5 @@ body {
 
 button {
 	-webkit-appearance: none;
+	border: 0;
 }

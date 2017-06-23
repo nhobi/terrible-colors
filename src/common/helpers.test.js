@@ -1,7 +1,7 @@
-import { random } from "./helpers";
+import { random, shuffle } from "./helpers";
 import data from "../config/data";
 
-describe("random", () => {
+describe("helpers.random", () => {
 	it("returns one random item in collection", () => {
 		let randomItem = random(data.terribleColors);
 
@@ -28,9 +28,22 @@ describe("random", () => {
 
 	it("returns all items if count is out of range", () => {
 		let items = random(data.terribleWords, 0);
-		let moreItems = random(data.terribleWords, data.terribleWords.length + 1);
+		let moreItems = random(
+			data.terribleWords,
+			data.terribleWords.length + 1
+		);
 
 		expect(items).toEqual(data.terribleWords);
 		expect(moreItems).toEqual(data.terribleWords);
+	});
+});
+
+describe("helpers.shuffle", () => {
+	it("shuffles an array", () => {
+		let original = data.terribleColors;
+		let shuffled = shuffle([...original]);
+
+		expect(shuffled).not.toEqual(original);
+		expect(shuffled).toEqual(expect.arrayContaining(original));
 	});
 });

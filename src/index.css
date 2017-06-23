@@ -1,5 +1,9 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 2em;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: #d6e8d4;
 }

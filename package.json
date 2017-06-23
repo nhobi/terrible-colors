@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "clipboard": "^1.7.1",
     "jest": "^20.0.4",
     "react": "^15.6.1",
+    "react-clipboard.js": "^1.1.2",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",

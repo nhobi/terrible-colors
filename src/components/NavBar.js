@@ -7,7 +7,7 @@ const NavBarContainer = styled.div`
 	left: 0;
 	right: 0;
 	background: #fff;	
-	padding: 2em;
+	padding: 2em 4em;
 	border-top: 5px solid red;
 	background-color: rgba(202, 160, 97, .97);
 `;

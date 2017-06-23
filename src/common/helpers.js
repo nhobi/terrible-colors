@@ -3,7 +3,7 @@ function getRandomIndex(length) {
 }
 
 function removeItem(items, indexToRemove) {
-	return items.filter(i => i != items[indexToRemove]);
+	return items.filter(i => i !== items[indexToRemove]);
 }
 
 export const random = (items, count = 1) => {

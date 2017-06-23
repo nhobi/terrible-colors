@@ -5,7 +5,7 @@ export default {
 		{ id: 3, hex: "#008000", name: "tree green" },
 		{ id: 4, hex: "#ffff00", name: "sunshine yellow" },
 		{ id: 5, hex: "#ffa500", name: "orangejuice orange" },
-		{ id: 6, hex: "#8b4513", name: "poop brown" },
+		{ id: 6, hex: "#8b4513", name: "stick brown" },
 		{ id: 7, hex: "#f6f9de", name: "bread white" },
 		{ id: 8, hex: "#1a2920", name: "kettle black" },
 		{ id: 9, hex: "#5D00EF", name: "exciting purple" },
@@ -16,7 +16,7 @@ export default {
 		{ id: 14, hex: "#d2b48c", name: "tan beach" },
 		{ id: 15, hex: "#fff8dc", name: "artistic cornsilk" },
 		{ id: 16, hex: "#de8113", name: "seminal bisque" },
-		{ id: 17, hex: "#a52a2a", name: "rock star brown" },
+		{ id: 17, hex: "#a52a2a", name: "rock star fudge" },
 		{ id: 18, hex: "#c19494", name: "slightly perfumed" }
 	],
 	terribleWords: [
@@ -41,6 +41,16 @@ export default {
 		{ id: 18, text: "garbage" },
 		{ id: 19, text: "dumpster-fire" },
 		{ id: 20, text: "reprehensible" },
-		{ id: 21, text: "moist" }
+		{ id: 21, text: "moist" },
+		{ id: 22, text: "steaming" },
+		{ id: 23, text: "shameful" }
+	],
+	terriblePeople: [
+		{ id: 1, text: "humans" },
+		{ id: 2, text: "souls" },
+		{ id: 3, text: "degenerates" },
+		{ id: 4, text: "people" },
+		{ id: 5, text: "earth killers" },
+		{ id: 6, text: "mortals" }
 	]
 };

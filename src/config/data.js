@@ -11,13 +11,13 @@ export default {
 		{ id: 9, hex: "#5D00EF", name: "exciting purple" },
 		{ id: 10, hex: "#F5F7F3", name: "milk white" },
 		{ id: 11, hex: "#f7c3cc", name: "melon pink" },
-		{ id: 12, hex: "#5af5e6", name: "rad turquoise" },
-		{ id: 13, hex: "#42ff99", name: "good cucumber" },
+		{ id: 12, hex: "#62948f", name: "rad turquoise" },
+		{ id: 13, hex: "#a1c7a1", name: "good cucumber" },
 		{ id: 14, hex: "#d2b48c", name: "tan beach" },
 		{ id: 15, hex: "#fff8dc", name: "artistic cornsilk" },
 		{ id: 16, hex: "#de8113", name: "seminal bisque" },
 		{ id: 17, hex: "#a52a2a", name: "rock star fudge" },
-		{ id: 18, hex: "#c19494", name: "slightly perfumed" }
+		{ id: 18, hex: "#c19494", name: "fruit pink" }
 	],
 	terribleWords: [
 		{ id: 1, text: "bad" },

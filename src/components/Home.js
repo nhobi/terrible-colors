@@ -31,8 +31,9 @@ class Home extends Component {
 		});
 	}
 
-	handleColorClick() {
-		let message = `You have successfully copied your dumpster-fire selection from this ${this.state.words[2].text} heap of "colors". What a disaster.`;
+	handleColorClick(color) {
+		let words = random(data.terribleWords, 2);
+		let message = `You have successfully copied ${color.name.toUpperCase()} (${color.hex}), a ${words[0].text} selection from this ${words[1].text} heap of 'colors'. What a disaster.`;
 		alert(message);
 	}
 
@@ -48,7 +49,7 @@ class Home extends Component {
 							<Color
 								color={item}
 								key={i}
-								onClick={this.handleColorClick.bind(this)}
+								onClick={this.handleColorClick.bind(this, item)}
 							/>
 						);
 					})}

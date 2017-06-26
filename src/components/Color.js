@@ -2,6 +2,35 @@ import React from "react";
 import styled from "styled-components";
 import ClipboardButton from "react-clipboard.js";
 
+export default props => {
+	return (
+		<ColorContainer>
+
+			<ColorContainerBg style={{ backgroundColor: props.color.hex }} />
+			<ColorContainerInner style={{ backgroundColor: props.color.hex }} />
+
+			<ColorTitle style={{ color: props.color.hex }}>
+				{props.color.name.toUpperCase()}
+			</ColorTitle>
+			<ClipboardButton
+				data-clipboard-text={props.color.hex}
+				onSuccess={props.onClick}
+				style={{
+					opacity: 0,
+					position: "absolute",
+					top: 0,
+					left: 0,
+					right: 0,
+					bottom: 0,
+					width: "100%",
+					cursor: "pointer",
+					zIndex: 10
+				}}
+			/>
+		</ColorContainer>
+	);
+};
+
 const ColorContainer = styled.div`
 	box-sizing: border-box;
 	position: relative;
@@ -51,32 +80,3 @@ const ColorTitle = styled.span`
 	letter-spacing: 1px;
     line-height: 1.5;
 `;
-
-export default props => {
-	return (
-		<ColorContainer>
-
-			<ColorContainerBg style={{ backgroundColor: props.color.hex }} />
-			<ColorContainerInner style={{ backgroundColor: props.color.hex }} />
-
-			<ColorTitle style={{ color: props.color.hex }}>
-				{props.color.name.toUpperCase()}
-			</ColorTitle>
-			<ClipboardButton
-				data-clipboard-text={props.color.hex}
-				onSuccess={props.onClick}
-				style={{
-					opacity: 0,
-					position: "absolute",
-					top: 0,
-					left: 0,
-					right: 0,
-					bottom: 0,
-					width: "100%",
-					cursor: "pointer",
-					zIndex: 10
-				}}
-			/>
-		</ColorContainer>
-	);
-};

@@ -47,10 +47,14 @@ export default {
 	],
 	terriblePeople: [
 		{ id: 1, text: "humans" },
-		{ id: 2, text: "souls" },
+		{ id: 2, text: "millennials" },
 		{ id: 3, text: "degenerates" },
 		{ id: 4, text: "people" },
-		{ id: 5, text: "earth killers" },
-		{ id: 6, text: "mortals" }
+		{ id: 5, text: "egomaniacs" },
+		{ id: 6, text: "wind suckers" },
+		{ id: 7, text: "new jerseyites" },
+		{ id: 8, text: "debasers" },
+		{ id: 9, text: "regrettables" },
+		{ id: 10, text: "reprehensibles" }
 	]
 };

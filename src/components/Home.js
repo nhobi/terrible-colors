@@ -33,7 +33,7 @@ class Home extends Component {
 
 	handleColorClick(color) {
 		let words = random(data.terribleWords, 2);
-		let message = `You have successfully copied ${color.name.toUpperCase()} (${color.hex}), a ${words[0].text} selection from this ${words[1].text} heap of 'colors'. What a disaster.`;
+		let message = `You have successfully copied ${color.name.toUpperCase()} (${color.hex}), a ${words[0].text} selection from this ${words[1].text} heap of "colors". What a disaster.`;
 		alert(message);
 	}
 

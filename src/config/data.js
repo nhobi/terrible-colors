@@ -17,7 +17,9 @@ export default {
 		{ id: 15, hex: "#fff8dc", name: "artistic cornsilk" },
 		{ id: 16, hex: "#de8113", name: "seminal bisque" },
 		{ id: 17, hex: "#a52a2a", name: "rock star fudge" },
-		{ id: 18, hex: "#c19494", name: "fruit pink" }
+		{ id: 18, hex: "#c19494", name: "fruit pink" },
+		{ id: 19, hex: "#ffcc99", name: "special peach" },
+		{ id: 20, hex: "#83831f", name: '"wow" olive' }
 	],
 	terribleWords: [
 		{ id: 1, text: "bad" },

@@ -10,6 +10,7 @@ const NavBarContainer = styled.div`
 	padding: 2em;
 	border-top: 5px solid red;
 	background-color: rgba(202, 160, 97, .97);
+	z-index: 5;
 `;
 
 class NavBar extends Component {

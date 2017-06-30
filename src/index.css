@@ -13,3 +13,10 @@ button {
 	-webkit-appearance: none;
 	border: 0;
 }
+
+a {
+  color: red;
+  font-weight: 100;
+  margin: 0 .25em;
+  display: inline-block;
+}

@@ -10,6 +10,7 @@ class App extends Component {
 			<Router>
 				<div>
 					<Route path="/" exact={true} component={Home} />
+					<Route path="/stickers" exact={true} component={Stickers} />
 				</div>
 			</Router>
 		);

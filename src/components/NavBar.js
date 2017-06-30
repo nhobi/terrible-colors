@@ -43,6 +43,8 @@ class NavBar extends Component {
 					>
 						tweet this
 					</Anchor>
+
+					<Link to="/stickers">stickers</Link>
 				</Logo>
 			</NavBarContainer>
 		);

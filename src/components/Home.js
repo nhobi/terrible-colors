@@ -78,7 +78,11 @@ class Home extends Component {
 	}
 }
 
-const HomeContainer = styled.div``;
+const HomeContainer = styled.div`
+	padding: 2em;
+  	padding-top: 5em;
+  	padding-bottom: 10em;
+`;
 
 const ColorContainer = styled.div`	
 	display: flex;

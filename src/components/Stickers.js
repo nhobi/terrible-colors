@@ -1,17 +1,8 @@
 import React, { Component } from "react";
-import styled from "styled-components";
-import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
-import Color from "./Color";
-import { random, shuffle } from "../common/helpers";
-import data from "../config/data";
 import images from "../config/images";
 
 class Stickers extends Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		return (
 			<div
@@ -93,13 +84,5 @@ class Stickers extends Component {
 		);
 	}
 }
-
-const StickerImage = styled.img`
-	display: block;
-	margin: auto;
-	margin-bottom: 2em;
-	max-width: 100%;
-	margin-top: -1em;	
-`;
 
 export default Stickers;

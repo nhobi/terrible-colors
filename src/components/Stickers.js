@@ -12,7 +12,8 @@ class Stickers extends Component {
 					padding: "0 2em",
 					backgroundPosition: "center center",
 					boxSixing: "border-box",
-					position: "relative"
+					position: "relative",
+					backgroundSize: "cover"
 				}}
 			>
 				<div id="mc_embed_signup">
